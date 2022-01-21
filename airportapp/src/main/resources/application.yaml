@@ -1,0 +1,13 @@
+logging:
+  level:
+    org.springframework: INFO
+    br.com.devmedia.jm.woki.airport: INFO
+server:
+  port: 8080
+  contextPath: /openflights
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: h2
